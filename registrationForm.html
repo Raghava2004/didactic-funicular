@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="stylle.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="text-center">Registration Form</h1>
+            <p class="description text-center">Please fill out the required information</p>
+        </header>
+         <div>
+            <form action="">
+                <div class="form-gang">
+                    <label for="name" id="name_label">Name</label> 
+                        <input class="form-control" type="text" placeholder="Enter your name" required>
+                    
+                <div class="form-gang">
+                    <label for="email" id="email-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                    
+                </div>
+                <div class="form-gang">
+                    <label for="password">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password" required >
+                    </label>
+                </div>
+                <div class="form-gang">
+                    <label for="age" id="age-label">Age(optional)</label>
+                        <input type="number" class="form-control" placeholder="Enter your age" required>
+                    
+                </div>
+                <div class="form-gang">
+                    <label for="preferences" id="dropdown"></label>
+                        <p>Which option best describes your role?</p>
+                        <select class="form-control" name="prefernces" id="dropdown">
+                            <option disabled selected value></option>
+                            <option value="student">Student</option>
+                            <option value="job">Full time job</option>
+                            <option value="learner">Full time learner</option>
+                            <option value="other">Other</option>
+                        </select>
+                    
+                </div>
+                <div class="form-gang">
+                    <label for="mobilenumber">Phone</label>
+                        <input type="tel" class="form-control" required>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="submit">Submit</button>                        
+                    
+                </div>
+
+
+                
+            </form>
+
+        </div>
+        </div>
+    </body>
+</html>
